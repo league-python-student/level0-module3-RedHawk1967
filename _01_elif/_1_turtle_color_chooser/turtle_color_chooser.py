@@ -1,3 +1,4 @@
+
 import random
 import turtle
 from tkinter import simpledialog
@@ -14,7 +15,31 @@ if __name__ == '__main__':
     window = turtle.Screen()
     window.bgcolor('white')
 
+
+
+    my_turtle = turtle.Turtle()
+    my_turtle.pensize(10)
+
+    for i in range(5):
+        color = simpledialog.askstring(title="",prompt="Enter a Primary color")
+
+
+        if color == "red":
+            my_turtle.pencolor("red")
+        elif color == "blue":
+            my_turtle.pencolor("blue")
+        elif color == "yellow":
+            my_turtle.pencolor("yellow")
+
+
+        for i in range(4):
+            my_turtle.forward(100)
+            my_turtle.right(90)
+
+
     # TODO 1) Create a new Turtle
+    #
+    #
     #      2) Make the turtle draw a shape (this will take more than one line
     #         of code)
     #      3) Set the pen width to 10
