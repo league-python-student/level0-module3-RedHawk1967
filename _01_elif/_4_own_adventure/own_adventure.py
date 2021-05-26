@@ -12,7 +12,7 @@ from tkinter import simpledialog, messagebox, Tk
         else if (start == "B")
             s2b = simpledialog.askstring(title="",prompt="You keep walking ignoring the shining light  then you are suddenly abducted by aliens!."
                                                          " DO you A keep quiet and don't answer any of their questions or B, teach them about earth and its history")
-            
+
 # TODO Tell the user a story, but give them options so they can decide the
 #  path of the plot.
 #  Use pop-ups, if statements, and your imagination to make an interesting
